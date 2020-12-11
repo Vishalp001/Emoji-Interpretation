@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+::-webkit-scrollbar {
+  width: 0px;
+  background: #16161a;
+}
 .App {
   text-align: center;
 }
