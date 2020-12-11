@@ -499,7 +499,7 @@ function App() {
         return <span
         key ={emojis}
         onClick={()=> clickEmojiHandler(emojis)}
-        >{emojis}</span>
+        >{emojis} </span>
         })
       }
     </div>
