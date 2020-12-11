@@ -467,7 +467,7 @@ function App() {
   const  emojiInput = event.target.value;
   var  meaning = emojiDictonary[emojiInput]
   if(meaning === undefined){
-    meaning = "dont know"
+    meaning = "sorry! we don't have it in our database"
     document.getElementById("p").innerHTML = "";
   }
     setinput(meaning)
@@ -488,7 +488,7 @@ function App() {
       <div id="top" className="head">
       <h1>😃 Smileys & People</h1>
       <input id="value" onChange={inputEventHandler} />
-  <h2> Meaning: <span id="p" ></span>  {input}</h2>
+  <h2> Meaning: <span id="p" ></span> <span id="q">{input}</span> </h2>
       </div>
 
 {/* -------------EMOJI SECTION----------------- */}
