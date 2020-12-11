@@ -487,7 +487,7 @@ function App() {
     <div className="App">
       <div id="top" className="head">
       <h1>😃 Smileys & People</h1>
-      <input id="value" onChange={inputEventHandler} />
+      <input placeholder="Enter Emoji" id="value" onChange={inputEventHandler} />
   <h2> Meaning: <span id="p" ></span> <span id="q">{input}</span> </h2>
       </div>
 
