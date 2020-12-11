@@ -507,8 +507,7 @@ function App() {
   {/* ---------------Footer------------------ */}
 
   <div className="footer">
-  <p class="copyright-text">Copyright &copy; 2020 made by 
-            <a href="https://twitter.com/vishalp_tech" target="_z"> Vishal</a>.
+  <p class="copyright-text">Made with ❤ by <a href="https://twitter.com/vishalp_tech" target="_z"> Vishal</a>.
           </p>
   </div>
     </div>
