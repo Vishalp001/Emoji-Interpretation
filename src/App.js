@@ -467,7 +467,7 @@ function App() {
   const  emojiInput = event.target.value;
   var  meaning = emojiDictonary[emojiInput]
   if(meaning === undefined){
-    meaning = "dont know"
+    meaning = "sorry! we don't have it in our database"
     document.getElementById("p").innerHTML = "";
   }
     setinput(meaning)
