@@ -42,7 +42,7 @@
   }
 }
 input{
-  width: 60%;
+  width: 70%;
   height: 2.8rem;
   font-size: 25px;
   text-align: center;
@@ -82,4 +82,8 @@ input{
 #q{
   font-family: 'Roboto', sans-serif;
   color: #ce1a56;
+}
+::placeholder{
+  color: #0c0c0c;
+  font-family: 'Courier New', Courier, monospace;
 }
